@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace FormsGalleryApp
 {
@@ -10,7 +8,10 @@ namespace FormsGalleryApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            var pagina = new NavigationPage(
+                new XamarinForms.Pages.NavigationPage.Conteudo01()
+            );
+            MainPage = pagina;
         }
 
         protected override void OnStart()
