@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="FormsGalleryApp.XamarinForms.Pages.NavigationPage.InsertedPage">
+    <ContentPage.Content>
+
+        <StackLayout>
+            <Label Text="Página Inserida"></Label>
+            <Button Text="Home" Clicked="OpenInitialPage" ></Button>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

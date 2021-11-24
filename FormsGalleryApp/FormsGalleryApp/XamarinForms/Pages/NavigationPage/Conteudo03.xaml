@@ -7,13 +7,19 @@
 
     <ContentPage.Content>
         <StackLayout>
+
+
+            <Button Text="Inserir Página na Pilha" Clicked="InsertPage"/>
+            <Button Text="Remover Página na Pilha" Clicked="RemovePage"/>
+
             <Label Text="Página de Conteúdo 01"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
 
             <Button Text="Voltar" Clicked="PopAsync"/>
+            <Button Text="Voltar para o início" Clicked="BackToStart"/>
 
         </StackLayout>
     </ContentPage.Content>
-    
+
 </ContentPage>

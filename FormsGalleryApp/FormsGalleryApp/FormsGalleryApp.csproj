@@ -29,4 +29,18 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="XamarinForms\Pages\Modal\" />
+    <None Remove="XamarinForms\Pages\PaginaDeCarrossel\" />
+    <None Remove="XamarinForms\Pages\PaginaDeAbas\" />
+    <None Remove="XamarinForms\Pages\PaginaDeMenuLateral\" />
+    <None Remove="AppBase\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="XamarinForms\Pages\Modal\" />
+    <Folder Include="XamarinForms\Pages\PaginaDeCarrossel\" />
+    <Folder Include="XamarinForms\Pages\PaginaDeAbas\" />
+    <Folder Include="XamarinForms\Pages\PaginaDeMenuLateral\" />
+    <Folder Include="AppBase\" />
+  </ItemGroup>
 </Project>

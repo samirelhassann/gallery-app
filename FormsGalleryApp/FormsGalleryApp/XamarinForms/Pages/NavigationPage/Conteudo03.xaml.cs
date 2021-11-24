@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -25,6 +21,21 @@ namespace FormsGalleryApp.XamarinForms.Pages.NavigationPage
         private void PopAsync(object sender, EventArgs e)
         {
             Navigation.PopAsync();
+        }
+
+        void BackToStart(System.Object sender, System.EventArgs e)
+        {
+            Navigation.PopToRootAsync();
+        }
+
+        void InsertPage(System.Object sender, System.EventArgs e)
+        {
+            Navigation.InsertPageBefore(new InsertedPage(), Navigation.NavigationStack[0]);
+        }
+
+        void RemovePage(System.Object sender, System.EventArgs e)
+        {
+            Navigation.RemovePage(Navigation.NavigationStack[0]);
         }
     }
 }

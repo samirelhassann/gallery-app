@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -77,7 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FormsGalleryApp\FormsGalleryApp.csproj">
-      <Project>{E46CE38D-87B1-44E4-8012-8F15881123B5}</Project>
+      <Project>{24A9C5AA-F8F1-49D9-86EA-42A7E041233E}</Project>
       <Name>FormsGalleryApp</Name>
     </ProjectReference>
   </ItemGroup>
